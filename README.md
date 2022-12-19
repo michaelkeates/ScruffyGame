@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://www.michaelkeates.co.uk/_next/image?url=https%3A%2F%2Frepository-images.githubusercontent.com%2F512177047%2F0d150de4-ee11-4ebb-ae09-4f08cbe116b8&w=640&q=75" width="300px" height="300px"/>
+  <img src="https://repository-images.githubusercontent.com/580064866/6fb67768-1bb7-4ff5-9882-6c96cc3bef70" width="300px" height="300px"/>
 </p>
 <h1 align="center">ScruffyGame</h1>
 I was tasked by the University of South Wales for the Software Development Module in Year 1 of studying HND to produce an animated computer game of choice. The task was to implement basic animation and keyboard controls, collision detection, features and functions in separated methods, scoring system along with loading and saving high scores among others.
