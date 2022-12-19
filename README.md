@@ -2,33 +2,28 @@
   <img src="https://www.michaelkeates.co.uk/_next/image?url=https%3A%2F%2Frepository-images.githubusercontent.com%2F512177047%2F0d150de4-ee11-4ebb-ae09-4f08cbe116b8&w=640&q=75" width="300px" height="300px"/>
 </p>
 <h1 align="center">ScruffyGame</h1>
-Hammurabi is a frontend WinForm application built using C# and based on the original text-based Hamurabi that was first developed under the name of King Sumeria or The Sumer Game by Doug Dyment in 1968. Hammurabi is a WinForm game with a graphical user interface of land and resource management. This was developed for an assigment for the University of South Wales.
+I was tasked by the University of South Wales for the Software Development Module in Year 1 of studying HND to produce an animated computer game of choice. The task was to implement basic animation and keyboard controls, collision detection, features and functions in separated methods, scoring system along with loading and saving high scores among others.
 <br></br>
 <br></br>
 <p align="center">
-  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2022/07/hamgame2.jpg" width"140px"/>
+  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2022/08/Screenshot-2022-08-02-at-14.17.06.png" width"140px"/>
 </p>
 <br></br>
 <h2 align="left">Description</h1>
 
-I was tasked with recreating the Hamurabi game with UI components for one of my assigments set by the university. The Graphical User Interface was created from scratch using Adobe Photoshop. I was also tasked with displaying a sorted view of the 10 years in a chart as well as publishing the finished product within a Windows Installer.
-
 <h3 align="left">Game Rules</h3>
 <ul>
-<li>The game lasts 10 years, with a year being one turn</li>
-<li>Each year, enter how many bushels of grain to allocate to buying (or selling) acres of land, feeding your population, and planting crops for the next year.</li>
-<li>Each acre of land requires one bushel of grain to plant seeds.</li>
-<li>The price of each acre of land fluctuates from 17 bushels per acre to 26 bushels.</li>
-<li>If the conditions in your country ever become bad enough, the people will overthrow you and you won't finish your 10 year term.</li>
-<li>If you make it to the 11th year, your rule will be evaluated and you'll be ranked against great figures in history.</li>
+<li>Get “Scruff” from point A to point B within the time limit otherwise the player loses the game.</li>
+<li>The player will lose the game if “Scruff” loses all its health.</li>
+<li>Scruff can lose health by going into fire, water, asteroid or eagle lander.</li>
+<li>The more sausages that “Scruff” eats (collects) the more points the player will have.</li>
+<li>Each sausage will give “Scruff” some more health.</li>
+<li>Each sausage is worth 2 points towards the final score.</li>
+<li>Each sausage also will make “Scruff” ‘heavier’ which in turn will make “Scruff” slower in manoeuvrability.</li>
+<li>“Scruff” will randomly ‘poo’ which will make her ‘lighter’ and will move faster again.</li>
 </ul>
 
-<h3 align="left">Basic Strategy</h3>
-<ul>
-<li>Start with trying to feed all, or most, of your population 20 bushels of grain per person.</li>
-<li>Try to plant seeds on all of your land, assuming you have enough people and enough grain.</li>
-<li>Last, if you have grain remaining, you might spend some buying additional acres of land, especially if the price is right. If you didn't have enough grain for food and seed, you may need to sell some of your land, hopefully, at a good price.</li>
-</ul>
+I created a side scrolling game along with creating the graphical user interface from scratch using Adobe Photoshop. I implemented a way for PNG images to have transparency within the program such as the Health bar in the top right of the game screen. This however had a hit on performance and Windows Form was never designed to produce a program such like this. In the future I would like to recreate this using the Unreal Game Engine and have a mobile version.
 <br></br>
 <h2 align="left">Getting Started</h1>
 
