@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{264C5D13-743C-4A40-A5E3-4F0B090E7D47}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ScruffyGame</RootNamespace>
+    <AssemblyName>ScruffyGame</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>scruffy_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ScruffyDeath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScruffyDeath.Designer.cs">
+      <DependentUpon>ScruffyDeath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScruffyLevelCleared.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScruffyLevelCleared.Designer.cs">
+      <DependentUpon>ScruffyLevelCleared.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScruffyMainGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScruffyMainGame.Designer.cs">
+      <DependentUpon>ScruffyMainGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScruffyMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScruffyMainMenu.Designer.cs">
+      <DependentUpon>ScruffyMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScruffyOutOfTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScruffyOutOfTime.Designer.cs">
+      <DependentUpon>ScruffyOutOfTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScruffyQuit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScruffyQuit.Designer.cs">
+      <DependentUpon>ScruffyQuit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScruffyScoreBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScruffyScoreBoard.Designer.cs">
+      <DependentUpon>ScruffyScoreBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScruffySplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScruffySplash.Designer.cs">
+      <DependentUpon>ScruffySplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ScruffyDeath.resx">
+      <DependentUpon>ScruffyDeath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScruffyLevelCleared.resx">
+      <DependentUpon>ScruffyLevelCleared.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScruffyMainGame.resx">
+      <DependentUpon>ScruffyMainGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScruffyMainMenu.resx">
+      <DependentUpon>ScruffyMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScruffyOutOfTime.resx">
+      <DependentUpon>ScruffyOutOfTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScruffyQuit.resx">
+      <DependentUpon>ScruffyQuit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScruffyScoreBoard.resx">
+      <DependentUpon>ScruffyScoreBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScruffySplash.resx">
+      <DependentUpon>ScruffySplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\splashscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading_front.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG_Wide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_higscores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_exit_highlighted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_higscores_highlighted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_play_highlighted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usw_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnsound_mute.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soundbutton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scruffymusic.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soundbutton_highlighted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizebtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizebtn_highlighted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Object\sign2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Object\bush1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\life_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\life_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closebtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closebtn_highlighted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\1_water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\3_water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\17_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infoloading_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\infoloading_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mike_uswid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadingbar_splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usw_mike1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usw_mike2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poo_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poo_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1563572.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Object\matsign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Object\lunarsign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animated-flame.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheEagle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiles\6_water.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Object\finishsign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Object\tree2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4dcad98ff2d9aba671b56957ab5d70a2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oie_171215587L0WzDAM.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumblr_otwzm1Sbb81runoqyo1_540.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matias_fire3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scruff_still.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scruff2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scruff2_reverse.png" />
+    <None Include="Resources\sausage.gif" />
+    <None Include="Resources\doyoureallywanttoquit.png" />
+    <None Include="Resources\tick.png" />
+    <None Include="Resources\tick_highlighted.png" />
+    <None Include="Resources\outoftime.png" />
+    <None Include="Resources\youdied.png" />
+    <None Include="Resources\timer_bar.png" />
+    <None Include="Resources\timer_bg.png" />
+    <None Include="Resources\chomp.wav" />
+    <None Include="Resources\sausagescore_bg.png" />
+    <None Include="Resources\levelcleared.png" />
+    <None Include="Resources\star1.png" />
+    <None Include="Resources\star2.png" />
+    <None Include="Resources\star3.png" />
+    <None Include="Resources\BG_old.bmp" />
+    <None Include="Resources\BG_test.bmp" />
+    <None Include="Resources\confirm.png" />
+    <None Include="Resources\confirm_highlighted.png" />
+    <None Include="Resources\confirm_disabled.png" />
+    <None Include="Resources\Object\crate.png" />
+    <None Include="Resources\asteroid1.gif" />
+    <None Include="Resources\asteroid2.gif" />
+    <None Include="Resources\explosion.gif" />
+    <None Include="Resources\tombstone.png" />
+    <None Include="Resources\poo.gif" />
+    <Content Include="scruffy_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
