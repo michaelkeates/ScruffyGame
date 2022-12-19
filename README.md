@@ -6,7 +6,7 @@ I was tasked by the University of South Wales for the Software Development Modul
 <br></br>
 <br></br>
 <p align="center">
-  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2022/08/Screenshot-2022-08-02-at-14.17.06.png" width="140px"/>
+  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2022/08/Screenshot-2022-08-02-at-14.17.06.png" width="512px"/>
 </p>
 <br></br>
 <h2 align="left">Description</h1>
