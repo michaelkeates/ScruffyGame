@@ -2,6 +2,25 @@
   <img src="https://repository-images.githubusercontent.com/580064866/6fb67768-1bb7-4ff5-9882-6c96cc3bef70" width="512px"/>
 </p>
 <h1 align="center">ScruffyGame</h1>
+<p align="center">
+
+<a href="http://unlicense.org/">
+<img src="https://img.shields.io/badge/license-Unlicense-blue.svg" alt="License: Unlicense">
+</a>
+
+<a href="https://github.com/michaelkeates/ScruffyGame/issues">
+<img src="https://img.shields.io/github/issues/michaelkeates/ScruffyGame.svg" alt="Issues">
+</a>
+
+<a href="https://github.com/michaelkeates/ScruffyGame/fork">
+<img src="https://img.shields.io/github/forks/michaelkeates/ScruffyGame.svg" alt="Forks">
+</a>
+
+<a href="https://github.com/michaelkeates/ScruffyGame">
+<img src="https://img.shields.io/github/stars/michaelkeates/ScruffyGame.svg" alt="Stars">
+</a>
+
+</p>
 I was tasked by the University of South Wales for the Software Development Module in Year 1 of studying HND to produce an animated computer game of choice. The task was to implement basic animation and keyboard controls, collision detection, features and functions in separated methods, scoring system along with loading and saving high scores among others.
 <br></br>
 <br></br>
@@ -25,6 +44,16 @@ I was tasked by the University of South Wales for the Software Development Modul
 
 I created a side scrolling game along with creating the graphical user interface from scratch using Adobe Photoshop. I implemented a way for PNG images to have transparency within the program such as the Health bar in the top right of the game screen. This however had a hit on performance and Windows Form was never designed to produce a program such like this. In the future I would like to recreate this using the Unreal Game Engine and have a mobile version.
 <br></br>
+<h2 align="left">Images</h1>
+
+<p align="center">
+  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.16.18.jpg" width="140" height="67px"/>
+  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.16.24.jpg" width="140" height="163px"/>
+  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.16.54.jpg" width="140" height="163px"/>
+  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.17.06.jpg" width="140" height="163px"/>
+  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.17.26.jpg" width="140" height="163px"/>
+  <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.18.17.jpg" width="140" height="163px"/>
+</p>
 <h2 align="left">Getting Started</h1>
 
 <h3 align="left">Dependencies</h3>
@@ -34,7 +63,7 @@ I created a side scrolling game along with creating the graphical user interface
 
 <h3 align="left">Executing Program</h3>
 <ul>
-<li>Right click on Hammurabi.exe and “Run As Administrator” or it will give an error that .dat files cannot be accessed. This is due to Admin privileges</li>
+<li>Right click on ScruffyGame.exe and “Run As Administrator” or it will give an error that .dat files cannot be accessed. This is due to Admin privileges</li>
 </ul>
 
 <h3 align="left">Author</h3>
