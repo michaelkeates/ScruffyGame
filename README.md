@@ -46,14 +46,12 @@ I created a side scrolling game along with creating the graphical user interface
 <br></br>
 <h2 align="left">Images</h1>
 
-<p align="center">
   <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.16.18.jpg" width="140" height="67px"/>
   <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.16.24.jpg" width="140" height="163px"/>
   <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.16.54.jpg" width="140" height="163px"/>
   <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.17.06.jpg" width="140" height="163px"/>
   <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.17.26.jpg" width="140" height="163px"/>
   <img src="https://blog.michaelkeates.co.uk/wp-content/uploads/2023/01/Screenshot-2022-08-02-at-14.18.17.jpg" width="140" height="163px"/>
-</p>
 <h2 align="left">Getting Started</h1>
 
 <h3 align="left">Dependencies</h3>
