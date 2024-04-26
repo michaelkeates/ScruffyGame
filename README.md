@@ -2,25 +2,7 @@
   <img src="https://repository-images.githubusercontent.com/580064866/6fb67768-1bb7-4ff5-9882-6c96cc3bef70" width="512px"/>
 </p>
 <h1 align="center">ScruffyGame</h1>
-<p align="center">
 
-<a href="http://unlicense.org/">
-<img src="https://img.shields.io/badge/license-Unlicense-blue.svg" alt="License: Unlicense">
-</a>
-
-<a href="https://github.com/michaelkeates/ScruffyGame/issues">
-<img src="https://img.shields.io/github/issues/michaelkeates/ScruffyGame.svg" alt="Issues">
-</a>
-
-<a href="https://github.com/michaelkeates/ScruffyGame/fork">
-<img src="https://img.shields.io/github/forks/michaelkeates/ScruffyGame.svg" alt="Forks">
-</a>
-
-<a href="https://github.com/michaelkeates/ScruffyGame">
-<img src="https://img.shields.io/github/stars/michaelkeates/ScruffyGame.svg" alt="Stars">
-</a>
-
-</p>
 I was tasked by the University of South Wales for the Software Development Module in Year 1 of studying HND to produce an animated computer game of choice. The task was to implement basic animation and keyboard controls, collision detection, features and functions in separated methods, scoring system along with loading and saving high scores among others.
 <br></br>
 <br></br>
